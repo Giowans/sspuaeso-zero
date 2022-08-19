@@ -1,4 +1,5 @@
 import {useState, useEffect} from "react";
+import Piramid from "../../components/piramid";
 
 const Diagnostico = () => {
   
@@ -45,7 +46,7 @@ const Diagnostico = () => {
         </button>
       </div>
       <div className="w-full h-full col-span-10 mt-4">
-
+        <Piramid character={character} rows={rows} isStarted = {isStarted}/>
       </div>
     </div>
   )
