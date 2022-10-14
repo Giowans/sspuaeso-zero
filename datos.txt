@@ -1,0 +1,32 @@
+Lote # 1
+
+	1-. Carolina
+	35 * 501
+	TIME: 9
+
+	2-. Carlos
+	197 * 643
+	TIME: 8
+
+	3-. Carolina
+	40 * 550
+	TIME: 7
+
+	4-. Carolina
+	790 + 333
+	TIME: 7
+
+	5-. Carolina
+	954 - 650
+	TIME: 6
+
+Lote # 2
+
+	6-. Carolina
+	874 - 136
+	TIME: 4
+
+	7-. Carolina
+	311 + 660
+	TIME: 10
+

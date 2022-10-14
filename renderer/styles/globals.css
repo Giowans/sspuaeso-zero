@@ -3,29 +3,44 @@
 @tailwind utilities;
 
 @layer base {
+  
   body {
     @apply text-white bg-gray-900;
   }
 
   h1 {
-    @apply font-bold text-6xl text-white 
+    @apply font-bold text-6xl  
+  }
+
+  h3 {
+    @apply font-medium text-xl 
   }
 
   h4 {
     @apply font-medium italic text-lg 
   }
 
+  p {
+    @apply font-light text-base 
+  }
+
   label {
-    @apply font-medium my-2 text-white
+    @apply font-medium my-2 
   }
 
   input {
-    @apply py-2 px-2 w-full outline-0 bg-gray-900 h-fit font-normal rounded-lg border-2 border-white text-white text-base
+    @apply py-2 px-2 w-full outline-0 bg-gray-900 h-fit font-normal rounded-lg border-2 border-white  text-base
   }
 }
 
 @layer components {
+  
   .btn-blue {
     @apply px-4 py-2 font-bold text-white bg-blue-600 rounded hover:bg-blue-500;
   }
+
+  .btn {
+    @apply px-4 py-2 font-bold text-white rounded cursor-pointer;
+  }
+  
 }

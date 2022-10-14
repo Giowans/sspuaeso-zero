@@ -1,0 +1,25 @@
+Lote # 1
+
+	2-. Carlos
+	ERROR
+
+	3-. Carolina
+	40 * 550 = 22000
+
+	4-. Carolina
+	790 + 333 = 1123
+
+	5-. Carolina
+	954 - 650 = 304
+
+	1-. Carolina
+	35 * 501 = 17535
+
+Lote # 2
+
+	6-. Carolina
+	874 - 136 = 738
+
+	7-. Carolina
+	311 + 660 = 971
+

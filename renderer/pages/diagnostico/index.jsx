@@ -1,3 +1,5 @@
+import Head from "next/head";
+import Link from "next/link";
 import {useState, useEffect} from "react";
 import Piramid from "../../components/piramid";
 
@@ -30,8 +32,17 @@ const Diagnostico = () => {
   /**View */
   return (
     <div className="grid w-full h-full grid-cols-12 p-10 gap-x-4">
-      <h1 className="col-span-12">Actividad #0: Diagnóstico</h1>
-      <h4 className="col-span-12 mt-5">Giovanni Emmanuel Muñoz López --- 218746654 --- SSPUAESO </h4>
+      <Head>
+        <title>Diagnostico: Pirámide</title>
+      </Head>
+      <div className="flex flex-row items-center col-span-12">
+        <Link href="/home">
+          <div className="px-5 pb-3 bg-gray-800 rounded-lg cursor-pointer hover:bg-gray-700 hover:animate-pulse">
+            <h1>{"<"}</h1>
+          </div>
+        </Link>
+        <h1 className="ml-5">Diagnóstico</h1>
+      </div>
       <div className="w-full col-span-2 mt-4 h-fit">
         <div className="flex flex-col justify-start w-full h-full">
           <label>Caracter:</label>
